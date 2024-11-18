@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.vdocLoginTest"
+      "package": "com.anonymous.vdocLoginTest",
+      "versionCode": 1
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c3fdc27f-d7ff-431b-af4d-d68a65daf343"
+      }
     }
   }
 }
