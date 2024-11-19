@@ -28,7 +28,13 @@ Follow these steps to set up the project:
    npm install
    ```
 
-4. Run the app on an Android emulator:
+4. Create a `.env` file in the project root directory and add the following environment variables:
+
+   ```text
+   EXPO_PUBLIC_API_URL=<FIREBASE_LOGIN_URL>
+   ```
+
+5. Run the app on an Android emulator:
    ```bash
    npx expo run:android
    ```
