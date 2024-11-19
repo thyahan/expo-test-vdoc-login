@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 
-const url = "https://asia-northeast1-true-videocall-staging.cloudfunctions.net/keycloakLogin";
+const url = process.env.EXPO_PUBLIC_API_URL as string;
 
 type Realm = "dealer" | "employee";
 type Payload = {
